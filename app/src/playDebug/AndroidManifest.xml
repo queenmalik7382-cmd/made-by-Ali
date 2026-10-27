@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Play Store Safe Variant: Remove restricted permissions and AccessibilityService -->
+    <uses-permission
+        android:name="android.permission.ANSWER_PHONE_CALLS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.WRITE_SECURE_SETTINGS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:node="remove" />
+
+    <application>
+        <service
+            android:name=".service.MayaAccessibilityService"
+            tools:node="remove" />
+    </application>
+</manifest>

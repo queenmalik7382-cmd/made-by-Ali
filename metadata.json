@@ -1,0 +1,6 @@
+{
+  "name": "Maya",
+  "description": "Voice-first Hinglish, Urdu, and English AI phone assistant with Gemini Live API, multimodal camera vision, routine tracking, notifications reader, YouTube channel analytics, and task memory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

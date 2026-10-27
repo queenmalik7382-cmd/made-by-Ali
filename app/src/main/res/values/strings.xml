@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Maya</string>
+    <string name="accessibility_service_description">Maya AI Assistant: Screen padhne, apps kholne, tap aur scroll karne ke liye accessibility control.</string>
+    <string name="voice_interaction_label">Maya Voice Assistant</string>
+    <string name="notification_listener_label">Maya Notification Reader</string>
+    <string name="incall_service_label">Maya Call Assistant</string>
+    <string name="fg_channel_name">Maya Active Voice Engine</string>
+    <string name="fg_channel_desc">Maya ko screen off hone par bhi zinda aur sunne ke liye chalu rakhta hai.</string>
+    <string name="routine_channel_name">Meri Routine Alerts</string>
+    <string name="routine_channel_desc">Aapke rozana routine tasks aur reminders ke notifications.</string>
+    <string name="emergency_stop_action">Ruko (Stop Maya)</string>
+</resources>
